@@ -1,0 +1,387 @@
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0">
+  <ThemeInfo name="Neo" author="Isackender" email="isack.info@gmail.com" webpage="https://github.com/isackender"/>
+  <!-- Created using the VLC Skin Editor 0.8.5.dev (http://www.videolan.org/vlc/skineditor.html)-->
+  <Font id="silver-18" file="fonts/Silver.ttf" size="18"/>
+  <Font id="silver-20" file="fonts/Silver.ttf" size="20"/>
+	<Bitmap id="background" file="bitmaps/background.png" alphacolor="#FF00FF"/>
+	<Bitmap id="background-album-art" file="bitmaps/background-album-art.png" alphacolor="#FF00FF"/>
+	<Bitmap id="vlc-md-logo_idle" file="bitmaps/vlc-md-logo_idle.png" alphacolor="#FF00FF"/>
+	<Bitmap id="top-bar" file="bitmaps/top-bar.png" alphacolor="#FF00FF"/>
+	<Bitmap id="minimize_up" file="bitmaps/minimize_up.png" alphacolor="#FF00FF"/>
+	<Bitmap id="minimize_down" file="bitmaps/minimize_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="minimize_hover" file="bitmaps/minimize_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="maximize_up" file="bitmaps/maximize_up.png" alphacolor="#FF00FF"/>
+	<Bitmap id="maximize_down" file="bitmaps/maximize_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="maximize_hover" file="bitmaps/maximize_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="close_up" file="bitmaps/close_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="close_down" file="bitmaps/close_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="close_hover" file="bitmaps/close_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="play_up" file="bitmaps/play_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="play_down" file="bitmaps/play_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="play_hover" file="bitmaps/play_hover.png" alphacolor="#FF00FF"/>
+  <Bitmap id="pause_up" file="bitmaps/pause_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="pause_down" file="bitmaps/pause_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="pause_hover" file="bitmaps/pause_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="rewind_up" file="bitmaps/rewind_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="rewind_down" file="bitmaps/rewind_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="rewind_hover" file="bitmaps/rewind_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="stop_up" file="bitmaps/stop_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="stop_down" file="bitmaps/stop_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="stop_hover" file="bitmaps/stop_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="forward_up" file="bitmaps/forward_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="forward_down" file="bitmaps/forward_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="forward_hover" file="bitmaps/forward_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="loop_up" file="bitmaps/loop_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="loop_down" file="bitmaps/loop_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="loop_hover" file="bitmaps/loop_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="loop_active" file="bitmaps/loop_active.png" alphacolor="#FF00FF"/>
+	<Bitmap id="loop_active_hover" file="bitmaps/loop_active_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="repeat_up" file="bitmaps/repeat_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="repeat_down" file="bitmaps/repeat_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="repeat_hover" file="bitmaps/repeat_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="repeat_active" file="bitmaps/repeat_active.png" alphacolor="#FF00FF"/>
+	<Bitmap id="repeat_active_hover" file="bitmaps/repeat_active_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="shuffle_up" file="bitmaps/shuffle_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="shuffle_down" file="bitmaps/shuffle_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="shuffle_hover" file="bitmaps/shuffle_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="shuffle_active" file="bitmaps/shuffle_active.png" alphacolor="#FF00FF"/>
+	<Bitmap id="shuffle_active_hover" file="bitmaps/shuffle_active_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="playlist_up" file="bitmaps/playlist_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_down" file="bitmaps/playlist_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="playlist_hover" file="bitmaps/playlist_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="playlist_active_up" file="bitmaps/playlist_active_up.png" alphacolor="#FF00FF"/>
+	<Bitmap id="playlist_active_hover" file="bitmaps/playlist_active_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="plus_up" file="bitmaps/plus_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="plus_down" file="bitmaps/plus_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="plus_hover" file="bitmaps/plus_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="minus_up" file="bitmaps/minus_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="minus_down" file="bitmaps/minus_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="minus_hover" file="bitmaps/minus_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="volume-on_up" file="bitmaps/volume-on_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="volume-on_down" file="bitmaps/volume-on_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="volume-on_hover" file="bitmaps/volume-on_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="volume-off_up" file="bitmaps/volume-off_up.png" alphacolor="#FF00FF"/>
+  <Bitmap id="volume-off_down" file="bitmaps/volume-off_down.png" alphacolor="#FF00FF"/>
+  <Bitmap id="volume-off_hover" file="bitmaps/volume-off_hover.png" alphacolor="#FF00FF"/>
+	<Bitmap id="slider_thumb_h" file="bitmaps/slider_thumb_h.png" alphacolor="#FF00FF"/>
+	<Bitmap id="slider_thumb_v" file="bitmaps/slider_thumb_v.png" alphacolor="#FF00FF"/>
+	<Bitmap id="volume_track_bg" file="bitmaps/volume_track_bg.png" alphacolor="#FF00FF"/>
+	<Bitmap id="track_left_bg" file="bitmaps/track_left_bg.png" alphacolor="#FF00FF"/>
+	<Bitmap id="track_middle_bg" file="bitmaps/track_middle_bg.png" alphacolor="#FF00FF"/>
+	<Bitmap id="track_right_bg" file="bitmaps/track_right_bg.png" alphacolor="#FF00FF"/>
+  
+  <Bitmap id="resizer" file="bitmaps/resizer.png" alphacolor="#FF00FF"/>
+	<Bitmap id="hidden-resizer" file="bitmaps/hidden-resizer.png" alphacolor="#FF00FF"/>
+
+  <Window id="Player">
+		<!-- Windowed layout -->
+    <Layout id="Main" width="600" height="388" minwidth="600" maxwidth="2560" minheight="96" maxheight="1440">
+      <Image id="img_background" image="background" action="move" rightbottom="rightbottom"/>
+			<!-- Panel for window controls START -->
+			<Panel id="panel_top_bar" width="600" height="24" lefttop="lefttop" rightbottom="righttop">
+				<Image id="img_window_logo" image="vlc-md-logo_idle"/>
+				<Image id="img_top_bar" image="top-bar" width="504" minwidth="504" x="24" action="move" lefttop="lefttop" rightbottom="righttop"/>
+				<Panel id="panel_window_controls" width="72" height="24" x="528" lefttop="righttop" rightbottom="righttop">
+					<Button up="minimize_up" down="minimize_down" over="minimize_hover" action="vlc.minimize()" id="btn_window_minimize" lefttop="righttop" rightbottom="righttop" help="Minimize" tooltiptext="Minimize"/>
+					<Button up="maximize_up" down="maximize_down" over="maximize_hover" action="Player.maximize()" id="btn_window_maximize" x="24" lefttop="righttop" rightbottom="righttop" help="Maximize" tooltiptext="Maximize" visible="not Player.isMaximized()"/>
+					<Button up="maximize_up" down="maximize_down" over="maximize_hover" action="Player.unmaximize()" id="btn_window_un-maximize" x="24" lefttop="righttop" rightbottom="righttop" help="Minimize size" tooltiptext="Minimize size" visible="Player.isMaximized()"/>
+					<Button up="close_up" down="close_down" over="close_hover" action="vlc.quit()" id="btn_window_close" x="48" lefttop="righttop" rightbottom="righttop" help="Close" tooltiptext="Close"/>
+				</Panel>
+			</Panel>
+			<!-- Panel for window controls END -->
+			<!-- Panel for window content START -->
+			<Panel id="panel_content" width="600" height="288" y="24" lefttop="lefttop" rightbottom="rightbottom">
+				<Image id="img_album_art" image="background-album-art" x="156" y="0" width="288" height="288" lefttop="lefttop" rightbottom="rightbottom" action="move" art="true" resize="scale2" visible="not vlc.hasVout"/>
+				<Video id="video" width="600" height="288" lefttop="lefttop" rightbottom="rightbottom" action="move" visible="vlc.hasVout"/>
+			</Panel>
+			<!-- Panel for window content END -->
+			<!-- Panel for media START -->
+			<Panel id="panel_bottom_bar" width="600" height="60" y="312" lefttop="leftbottom" rightbottom="rightbottom">
+				<!-- Panel for media track START -->
+				<Panel id="panel_media_time" width="600" height="36" lefttop="leftbottom" rightbottom="rightbottom">
+					<Panel id="panel_media_start_time" width="60" height="36" lefttop="leftbottom" rightbottom="leftbottom">
+						<Text text="--:--" font="silver-18" alignment="right" color="#FFFFFF"
+							id="current_time_placeholder" x="12" y="10" width="40" lefttop="leftbottom" rightbottom="leftbottom"
+							visible="(not vlc.hasAudio) and (not vlc.hasVout)"
+						/>
+						<Text text="$t" font="silver-18" alignment="right" color="#FFFFFF"
+							id="current_time" x="12" y="10" width="40" lefttop="leftbottom" rightbottom="leftbottom"
+							visible="vlc.isPlaying or vlc.hasAudio or vlc.hasVout"
+						/>
+					</Panel>
+					<Panel id="panel_media_track_time" x="60" width="480" height="36" lefttop="leftbottom" rightbottom="rightbottom">
+						<!-- Media track slider START -->
+						<Slider id="slider_track" x="0" y="12" points="(0,6),(480,6)" thickness="0" value="time" tooltiptext=""
+							up="slider_thumb_h" width="480" rightbottom="rightbottom" ykeepratio="true">
+							<SliderBackground id="slider_track_bg" image="track_middle_bg" nbvert="480" />
+            </Slider>
+						<!-- Media track slider END -->
+					</Panel>
+					<Panel id="panel_media_end_time" x="540" width="60" height="36" lefttop="rightbottom" rightbottom="rightbottom">
+						<Text text="--:--" font="silver-18" alignment="left" color="#FFFFFF"
+							id="total_time_placeholder" x="8" y="10" width="48" lefttop="rightbottom" rightbottom="rightbottom"
+							visible="(not vlc.hasAudio) and (not vlc.hasVout)"
+						/>
+						<Text text="$d" font="silver-18" alignment="left" color="#FFFFFF"
+							id="total_time" x="8" y="10" width="48" lefttop="rightbottom" rightbottom="rightbottom"
+							visible="vlc.isPlaying or vlc.hasAudio or vlc.hasVout"
+						/>
+					</Panel>
+				</Panel>
+				<!-- Panel for media END -->
+				<!-- Panel for media controls START -->
+				<Panel id="panel_media_controls" width="600" height="24" y="36" lefttop="leftbottom" rightbottom="rightbottom">
+					<!-- Media controls START -->
+					<Panel id="panel_media_controls_a" width="176" height="24" x="24" lefttop="leftbottom" rightbottom="leftbottom">
+						<Button up="pause_up" down="pause_down" over="pause_hover" action="vlc.pause()" id="pause" x="0" lefttop="leftbottom" rightbottom="leftbottom" help="Play" visible="vlc.isPlaying" tooltiptext="Play"/>
+						<Button up="play_up" down="play_down" over="play_hover" action="vlc.play()" id="play" x="0" lefttop="leftbottom" rightbottom="leftbottom" help="Play" visible="not vlc.isPlaying" tooltiptext="Play"/>
+						<Button up="rewind_up" down="rewind_down" over="rewind_hover" action="playlist.previous()" id="rewind" x="30" lefttop="leftbottom" rightbottom="leftbottom" help="Previous" tooltiptext="Previous"/>
+						<Button up="stop_up" down="stop_down" over="stop_hover" action="vlc.stop()" id="stop" x="54" lefttop="leftbottom" rightbottom="leftbottom" help="Stop" tooltiptext="Stop"/>
+						<Button up="forward_up" down="forward_down" over="forward_hover" action="playlist.next()" id="forward" x="78" lefttop="leftbottom" rightbottom="leftbottom" help="Next" tooltiptext="Next"/>
+						<Checkbox id="loop" state="playlist.isLoop"
+							up1="loop_up" down="loop_down" over1="loop_hover"
+							up2="loop_active" down2="loop_down" over2="loop_active_hover"
+							action1="playlist.setLoop(true)"
+							action2="playlist.setLoop(false);playlist.setRepeat(true)"
+							visible="not playlist.isRepeat"
+							help="Loop all" tooltiptext="Loop all"
+							x="102"
+						/>
+						<Button id="repeat" up="repeat_active" down="repeat_down" over="repeat_active_hover"
+							action="playlist.setRepeat(false);playlist.setLoop(false)"
+							visible=" (playlist.isRepeat) and (not playlist.isLoop)"
+							lefttop="leftbottom" rightbottom="leftbottom"
+							help="Repeat one" tooltiptext="Repeat one"
+							x="102"
+						/>
+						<Checkbox
+							id="shuffle"
+							state="playlist.isRandom"
+							up1="shuffle_up"
+							up2="shuffle_active"
+							over1="shuffle_hover"
+							over2="shuffle_active_hover"
+							down1="shuffle_down"
+							down2="shuffle_down"
+							action1="playlist.setRandom(true)"
+							action2="playlist.setRandom(false)"
+							tooltiptext1="Shuffle off"
+							tooltiptext2="Shuffle on"
+							x="126"
+						/>
+						<Button up="playlist_up" down="playlist_down" over="playlist_hover" action="Player.setLayout(Main_pl)" id="btn_playlist" x="150" lefttop="leftbottom" rightbottom="leftbottom" help="Playlist" tooltiptext="Playlist"/>
+					</Panel>
+					<!-- Media controls END -->
+					<!-- Media artist START -->
+					<Panel id="panel_media_artist" width="236" height="24" x="200" lefttop="leftbottom" rightbottom="rightbottom">
+						<Text text="$N" font="silver-20" alignment="center" color="#FFFFFF" y="3" id="media_playing_title" width="232" lefttop="leftbottom" rightbottom="rightbottom" xkeepratio="false"/>
+					</Panel>
+					<!-- Media artist END -->
+					<!-- Volume START -->
+					<Panel id="panel_media_controls_b" width="160" height="24" x="436" lefttop="rightbottom" rightbottom="rightbottom">
+						<Checkbox id="mute_toggle" state="vlc.isMute"
+							up1="volume-on_up" over1="volume-on_hover" down1="volume-on_down" action1="vlc.mute()"
+							up2="volume-off_up" over2="volume-off_hover" down2="volume-off_down" action2="vlc.mute()"
+							tooltiptext1="Sound off"
+							tooltiptext2="Sound on"
+							x="0"
+						/>
+						<Slider id="slider_volume" x="32" y="6" points="(0,6),(72,6)" value="volume"
+							up="slider_thumb_h" width="72" lefttop="rightbottom" rightbottom="rightbottom">
+							<SliderBackground id="slider_volume_bg" image="volume_track_bg"/>
+            </Slider>
+						<Text text="$V%" font="silver-18" alignment="left" color="#FFFFFF" x="112" y="4" id="text_volume" width="36" lefttop="rightbottom" rightbottom="rightbottom"/>
+					</Panel>
+					<!-- Volume END -->
+				</Panel>
+				<!-- Panel for media controls END -->
+			</Panel>
+			<!-- Panel for media END -->
+			<!-- Window resizers START -->
+			<Panel id="panel_window_resizer_w" width="4" height="364" y="24" lefttop="lefttop" rightbottom="leftbottom">
+				<!-- This is not a resizer, only keeps symmetry -->
+				<Image id="img_resizer_w" width="4" height="368" image="hidden-resizer" action="resizeW" lefttop="lefttop" rightbottom="rightbottom"/>
+			</Panel>
+			<Panel id="panel_window_resizer_se" width="600" height="16" y="372" lefttop="leftbottom" rightbottom="rightbottom">
+				<Image id="img_resizer_se" width="12" height="12" x="588" y="4" image="resizer" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+			</Panel>
+			<Panel id="panel_window_resizer_s" width="588" height="4" y="384" lefttop="leftbottom" rightbottom="rightbottom">
+				<Image id="img_hidden-resizer_s" width="588" height="4" image="hidden-resizer" action="resizeS" lefttop="leftbottom" rightbottom="rightbottom"/>
+			</Panel>
+			<Panel id="panel_window_resizer_e" width="4" height="352" x="596" y="24" lefttop="righttop" rightbottom="rightbottom">
+				<Image id="img_hidden-resizer_e" width="4" height="352" image="hidden-resizer" action="resizeE" lefttop="righttop" rightbottom="rightbottom"/>
+			</Panel>
+			<!-- Window resizers END -->
+    </Layout>
+		<!-- Windowed layout -->
+		
+		<!-- ################################################################################################ -->
+		
+		<!-- Windowed playlist layout -->
+    <Layout id="Main_pl" width="600" height="388" minwidth="600" maxwidth="2560" minheight="96" maxheight="1440">
+      <Image id="img_background" image="background" action="move" rightbottom="rightbottom"/>
+			<!-- Panel for window controls START -->
+			<Panel id="panel_top_bar" width="600" height="24" lefttop="lefttop" rightbottom="righttop">
+				<Image id="img_window_logo" image="vlc-md-logo_idle"/>
+				<Image id="img_top_bar" image="top-bar" width="504" minwidth="504" x="24" action="move" lefttop="lefttop" rightbottom="righttop"/>
+				<Panel id="panel_window_controls" width="72" height="24" x="528" lefttop="righttop" rightbottom="righttop">
+					<Button up="minimize_up" down="minimize_down" over="minimize_hover" action="vlc.minimize()" id="btn_window_minimize" lefttop="righttop" rightbottom="righttop" help="Minimize" tooltiptext="Minimize"/>
+					<Button up="maximize_up" down="maximize_down" over="maximize_hover" action="Player.maximize()" id="btn_window_maximize" x="24" lefttop="righttop" rightbottom="righttop" help="Maximize" tooltiptext="Maximize" visible="not Player.isMaximized()"/>
+					<Button up="maximize_up" down="maximize_down" over="maximize_hover" action="Player.unmaximize()" id="btn_window_un-maximize" x="24" lefttop="righttop" rightbottom="righttop" help="Minimize size" tooltiptext="Minimize size" visible="Player.isMaximized()"/>
+					<Button up="close_up" down="close_down" over="close_hover" action="vlc.quit()" id="btn_window_close" x="48" lefttop="righttop" rightbottom="righttop" help="Close" tooltiptext="Close"/>
+				</Panel>
+			</Panel>
+			<!-- Panel for window controls END -->
+			<!-- Panel for window content START -->
+			<Panel id="panel_content" width="600" height="288" y="24" lefttop="lefttop" rightbottom="rightbottom">
+				<Image id="img_album_art" image="background-album-art" x="156" y="0" width="288" height="288" lefttop="lefttop" rightbottom="rightbottom" action="move" art="true" resize="scale2" visible="not vlc.hasVout"/>
+				<Video id="video" width="600" height="288" lefttop="lefttop" rightbottom="rightbottom" action="move" visible="vlc.hasVout"/>
+			</Panel>
+			<!-- Panel for window content END -->
+			<!-- Panel for media START -->
+			<Panel id="panel_bottom_bar" width="600" height="60" y="312" lefttop="leftbottom" rightbottom="rightbottom">
+				<!-- Panel for media track START -->
+				<Panel id="panel_media_time" width="600" height="36" lefttop="leftbottom" rightbottom="rightbottom">
+					<Panel id="panel_media_start_time" width="60" height="36" lefttop="leftbottom" rightbottom="leftbottom">
+						<Text text="--:--" font="silver-18" alignment="right" color="#FFFFFF"
+							id="current_time_placeholder" x="12" y="10" width="40" lefttop="leftbottom" rightbottom="leftbottom"
+							visible="(not vlc.hasAudio) and (not vlc.hasVout)"
+						/>
+						<Text text="$t" font="silver-18" alignment="right" color="#FFFFFF"
+							id="current_time" x="12" y="10" width="40" lefttop="leftbottom" rightbottom="leftbottom"
+							visible="vlc.isPlaying or vlc.hasAudio or vlc.hasVout"
+						/>
+					</Panel>
+					<Panel id="panel_media_track_time" x="60" width="480" height="36" lefttop="leftbottom" rightbottom="rightbottom">
+						<!-- Media track slider START -->
+						<Slider id="slider_track" x="0" y="12" points="(0,6),(480,6)" thickness="0" value="time" tooltiptext=""
+							up="slider_thumb_h" width="480" rightbottom="rightbottom" ykeepratio="true">
+							<SliderBackground id="slider_track_bg" image="track_middle_bg" nbvert="480" />
+            </Slider>
+						<!-- Media track slider END -->
+					</Panel>
+					<Panel id="panel_media_end_time" x="540" width="60" height="36" lefttop="rightbottom" rightbottom="rightbottom">
+						<Text text="--:--" font="silver-18" alignment="left" color="#FFFFFF"
+							id="total_time_placeholder" x="8" y="10" width="48" lefttop="rightbottom" rightbottom="rightbottom"
+							visible="(not vlc.hasAudio) and (not vlc.hasVout)"
+						/>
+						<Text text="$d" font="silver-18" alignment="left" color="#FFFFFF"
+							id="total_time" x="8" y="10" width="48" lefttop="rightbottom" rightbottom="rightbottom"
+							visible="vlc.isPlaying or vlc.hasAudio or vlc.hasVout"
+						/>
+					</Panel>
+				</Panel>
+				<!-- Panel for media END -->
+				<!-- Panel for media controls START -->
+				<Panel id="panel_media_controls" width="600" height="24" y="36" lefttop="leftbottom" rightbottom="rightbottom">
+					<!-- Media controls START -->
+					<Panel id="panel_media_controls_a" width="176" height="24" x="24" lefttop="leftbottom" rightbottom="leftbottom">
+						<Button up="pause_up" down="pause_down" over="pause_hover" action="vlc.pause()" id="pause" x="0" lefttop="leftbottom" rightbottom="leftbottom" help="Play" visible="vlc.isPlaying" tooltiptext="Play"/>
+						<Button up="play_up" down="play_down" over="play_hover" action="vlc.play()" id="play" x="0" lefttop="leftbottom" rightbottom="leftbottom" help="Play" visible="not vlc.isPlaying" tooltiptext="Play"/>
+						<Button up="rewind_up" down="rewind_down" over="rewind_hover" action="playlist.previous()" id="rewind" x="30" lefttop="leftbottom" rightbottom="leftbottom" help="Previous" tooltiptext="Previous"/>
+						<Button up="stop_up" down="stop_down" over="stop_hover" action="vlc.stop()" id="stop" x="54" lefttop="leftbottom" rightbottom="leftbottom" help="Stop" tooltiptext="Stop"/>
+						<Button up="forward_up" down="forward_down" over="forward_hover" action="playlist.next()" id="forward" x="78" lefttop="leftbottom" rightbottom="leftbottom" help="Next" tooltiptext="Next"/>
+						<Checkbox id="loop" state="playlist.isLoop"
+							up1="loop_up" down="loop_down" over1="loop_hover"
+							up2="loop_active" down2="loop_down" over2="loop_active_hover"
+							action1="playlist.setLoop(true)"
+							action2="playlist.setLoop(false);playlist.setRepeat(true)"
+							visible="not playlist.isRepeat"
+							help="Loop all" tooltiptext="Loop all"
+							x="102"
+						/>
+						<Button id="repeat" up="repeat_active" down="repeat_down" over="repeat_active_hover"
+							action="playlist.setRepeat(false);playlist.setLoop(false)"
+							visible=" (playlist.isRepeat) and (not playlist.isLoop)"
+							lefttop="leftbottom" rightbottom="leftbottom"
+							help="Repeat one" tooltiptext="Repeat one"
+							x="102"
+						/>
+						<Checkbox
+							id="shuffle"
+							state="playlist.isRandom"
+							up1="shuffle_up"
+							up2="shuffle_active"
+							over1="shuffle_hover"
+							over2="shuffle_active_hover"
+							down1="shuffle_down"
+							down2="shuffle_down"
+							action1="playlist.setRandom(true)"
+							action2="playlist.setRandom(false)"
+							tooltiptext1="Shuffle off"
+							tooltiptext2="Shuffle on"
+							x="126"
+						/>
+						<Button up="playlist_active_up" down="playlist_down" over="playlist_active_hover" action="Player.setLayout(Main)" id="btn_playlist" x="150" lefttop="leftbottom" rightbottom="leftbottom" help="Playlist" tooltiptext="Playlist"/>
+					</Panel>
+					<!-- Media controls END -->
+					<!-- Media artist START -->
+					<Panel id="panel_media_artist" width="236" height="24" x="200" lefttop="leftbottom" rightbottom="rightbottom">
+						<Text text="$N" font="silver-20" alignment="center" color="#FFFFFF" y="3" id="media_playing_title" width="232" lefttop="leftbottom" rightbottom="rightbottom" xkeepratio="false"/>
+					</Panel>
+					<!-- Media artist END -->
+					<!-- Volume START -->
+					<Panel id="panel_media_controls_b" width="160" height="24" x="436" lefttop="rightbottom" rightbottom="rightbottom">
+						<Checkbox id="mute_toggle" state="vlc.isMute"
+							up1="volume-on_up" over1="volume-on_hover" down1="volume-on_down" action1="vlc.mute()"
+							up2="volume-off_up" over2="volume-off_hover" down2="volume-off_down" action2="vlc.mute()"
+							tooltiptext1="Sound off"
+							tooltiptext2="Sound on"
+							x="0"
+						/>
+						<Slider id="slider_volume" x="32" y="6" points="(0,6),(72,6)" value="volume"
+							up="slider_thumb_h" width="72" lefttop="rightbottom" rightbottom="rightbottom">
+							<SliderBackground id="slider_volume_bg" image="volume_track_bg"/>
+            </Slider>
+						<Text text="$V%" font="silver-18" alignment="left" color="#FFFFFF" x="112" y="4" id="text_volume" width="36" lefttop="rightbottom" rightbottom="rightbottom"/>
+					</Panel>
+					<!-- Volume END -->
+				</Panel>
+				<!-- Panel for media controls END -->
+			</Panel>
+			<!-- Panel for media END -->
+			<!-- Panel for playlist START -->
+			<Panel id="panel_playlist" x="350" y="24" width="250" height="288" lefttop="righttop" rightbottom="rightbottom">
+				<Image id="img_playlist_bg" width="350" height="288" image="hidden-resizer" lefttop="lefttop" rightbottom="rightbottom"/>
+				<Playtree id="playlist" font="silver-20"
+					x="16"
+					width="230" height="264" lefttop="righttop" rightbottom="rightbottom"
+					flat="true"
+					bgcolor1="#000000" bgcolor2="#000000" selcolor="#1a1a1a"
+					playcolor="#FF0000" fgcolor="#FFFFFF"
+				>
+					<Slider id="slider_playlist" width="12" height="288" lefttop="righttop" rightbottom="rightbottom"
+						points="(2,282),(2,6)" up="slider_thumb_h" thickness="12"
+						bgcolor="#000000"/>
+				</Playtree>
+				<Panel id="panel_playlist_controls" x="0" y="264" width="250" height="24" lefttop="leftbottom" rightbottom="rightbottom">
+					<Button id="plus" up="plus_up" down="plus_down" over="plus_hover" action="playlist.add()"
+					x="16"
+					lefttop="leftbottom" rightbottom="leftbottom" help="Add to the playlist" tooltiptext="Add to the playlist"/>
+					<Button id="minus" up="minus_up" down="minus_down" over="minus_hover" action="playlist.del()"
+					x="40"
+					lefttop="leftbottom" rightbottom="leftbottom" help="Remove selected from the playlist" tooltiptext="Remove selected from the playlist"/>
+				</Panel>
+			</Panel>
+			<!-- Panel for playlist END -->
+			<!-- Window resizers START -->
+			<Panel id="panel_window_resizer_w" width="4" height="364" y="24" lefttop="lefttop" rightbottom="leftbottom">
+				<!-- This is not a resizer, only keeps symmetry -->
+				<Image id="img_resizer_w" width="4" height="368" image="hidden-resizer" action="resizeW" lefttop="lefttop" rightbottom="rightbottom"/>
+			</Panel>
+			<Panel id="panel_window_resizer_se" width="600" height="16" y="372" lefttop="leftbottom" rightbottom="rightbottom">
+				<Image id="img_resizer_se" width="12" height="12" x="588" y="4" image="resizer" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+			</Panel>
+			<Panel id="panel_window_resizer_s" width="588" height="4" y="384" lefttop="leftbottom" rightbottom="rightbottom">
+				<Image id="img_hidden-resizer_s" width="588" height="4" image="hidden-resizer" action="resizeS" lefttop="leftbottom" rightbottom="rightbottom"/>
+			</Panel>
+			<Panel id="panel_window_resizer_e" width="4" height="352" x="596" y="24" lefttop="righttop" rightbottom="rightbottom">
+				<Image id="img_hidden-resizer_e" width="4" height="352" image="hidden-resizer" action="resizeE" lefttop="righttop" rightbottom="rightbottom"/>
+			</Panel>
+			<!-- Window resizers END -->
+    </Layout>
+		<!-- Windowed playlist layout -->
+  </Window>
+
+</Theme>
