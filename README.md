@@ -9,7 +9,11 @@ A 1bit distractionless skin for VLC media player.
 
 ![Demo image](https://i.imgur.com/0UAlYeb.png)
 
-Download from the [latest release](https://github.com/isackender/neo-vlc-skin/releases/latest)
+# Usage
+Open the .vlt file from VLC media player.
+
+# Download
+Get the .vlt file from the [latest release](https://github.com/isackender/neo-vlc-skin/releases/latest)
 
 Or download the project to build your own .vlt file and open it in VLC media player. Modify it to your needs with VLC media player [Skin Editor](https://images.videolan.org/vlc/skineditor.html)
 
